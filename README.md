@@ -1,7 +1,7 @@
 
 
-# Identificarea Sistemelor - MODELAREA SERIILOR DE TIMP (Proiect 1 :beverage_box: )
-
+# :beverage_box: MODELAREA SERIILOR DE TIMP (Proiect 1)
+### Identificarea Sistemelor 
 
 ## :anchor: Cuprins
 
