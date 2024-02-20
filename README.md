@@ -1,9 +1,9 @@
 
 
-# Identificarea Sistemelor - MODELAREA SERIILOR DE TIMP (Proiect 1)
+# Identificarea Sistemelor - MODELAREA SERIILOR DE TIMP (Proiect 1 :beverage_box: )
 
 
-## Cuprins
+## :anchor: Cuprins
 
 I. [Descrierea proiectului](#i-descrierea-proiectului)  
 II. [Descrierea structurii aproximatorului și a procedurii de găsire a parametrilor](#ii-descrierea-structurii-aproximatorului-și-a-procedurii-de-găsire-a-parametrilor)  
@@ -11,7 +11,7 @@ III. [Implementarea - Caracteristicile structurii](#iii-implementarea---caracter
 IV. [Grafice reprezentative](#iv-grafice-reprezentative)  
 V. [Concluzie](#v-concluzie)  
 
-## I. Descrierea proiectului
+## :bellhop_bell: I. Descrierea proiectului
 
 Proiectul constă în modelarea seriilor de timp utilizând funcții de bază Fourier. Problema dată înregistrează vânzările anumitor componente de instalații în funcție de nevoia folosirii lor de-a lungul unei serii de timp care se întinde pe parcursul mai multor ani și vor fi stocate în funcție de indecșii lunilor.
 
@@ -51,7 +51,7 @@ Grafice reprezentative pentru valoarea optimă a lui m.
 În concluzie, discutăm rezultatele obținute și evidențiem importanța alegerii optime a parametrilor pentru un model eficient și precis în aproximarea seriei de timp.
 
 
-## II. Descrierea structurii aproximatorului și a procedurii de găsire a parametrilor
+##  :bellhop_bell: II. Descrierea structurii aproximatorului și a procedurii de găsire a parametrilor
 ### II.I. Procedura de găsire a parametrilor
 
 Pentru identificare și validare, am împărțit setul de date furnizat în Matlab în două părți. Prima parte reprezintă 80% din setul de date, aproximativ 88 de puncte, în timp ce a doua parte reprezintă restul de 20% pentru datele de validare (21 puncte).
@@ -74,13 +74,13 @@ Am realizat grafice pentru identificare și validare pentru a urmări corectitud
 
 După determinarea regresiei liniare, am continuat cu funcționalitatea aproximatorului polinomial. Structura aproximatorului depinde de gradul m, iar regresorii includ elementele tendinței liniare (1, k) și funcțiile cosinus și sinus ale bazei Fourier. Am ales m=8 pentru a obține eroare minimă (MSE).
 
-## III. Implementarea - Caracteristicile structurii
+## :bellhop_bell: III. Implementarea - Caracteristicile structurii
 
 În primul pas, am împărțit datele în seturi de identificare și validare. Apoi, am generat matricea Q pentru ambele seturi. Am abordat problema generării matricei Φ, generând fiecare linie folosind regresia liniară și adăugând apoi aceste linii la matrice.
 
 După obținerea matricei Φ, am calculat valorile pentru θ folosind formula θ = Φ \(y_id)', atât pentru validare cât și pentru identificare. După obținerea Φ și θ, am calculat aproximarea funcției y prin înmulțirea matricei cu vectorul de parametri. Am verificat corectitudinea soluțiilor pentru identificare și validare prin calcularea MSE.
 
-## IV. Grafice reprezentative
+## :bellhop_bell: IV. Grafice reprezentative
 
 ### IV.I Datele furnizate (datele inainte de a fi impartite)
 
@@ -98,7 +98,7 @@ După obținerea matricei Φ, am calculat valorile pentru θ folosind formula θ
 
 <img width="280" alt="Captură de ecran din 2024-02-20 la 14 19 36" src="https://github.com/chiriacdaria/modelare-serii-timp/assets/99746700/e852f93f-b4dd-4a0c-85f5-840888ce7d69">
 
-## V. Concluzie
+## :bellhop_bell: V. Concluzie
 
 În concluzie, am abordat problema pe etape și am încercat să o structurăm cât de clar a fost posibil, astfel am ajuns la rezultatele dorite.
 De-a lungul problemei, am împărțit datele pentru validare cât și pentru identificare, apoi, am generat matricile pentru fiecare din situații, folosindu-ne de algoritmul regresiei liniare pentru a genera fiecare linie, iar mai apoi le-am adaugat în matrice. 
