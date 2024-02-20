@@ -67,3 +67,26 @@ Essential features of the individual solution, excluding trivial implementation 
 Obtained results, including Mean Squared Error (MSE) concerning m, presented in a graphic and tabular form.
 Representative graphs for the optimal value of m.
 In conclusion, we discuss the obtained results and highlight the importance of choosing optimal parameters for an efficient and accurate model in approximating the time series.
+
+
+
+# Identificarea Sistemelor - MODELAREA SERIILOR DE TIMP (Proiect 1)
+
+
+## Cuprins
+
+I. [Descrierea proiectului](#i-descrierea-proiectului)  
+II. [Descrierea structurii aproximatorului și a procedurii de găsire a parametrilor](#ii-descrierea-structurii-aproximatorului-și-a-procedurii-de-găsire-a-parametrilor)  
+III. [Implementarea - Caracteristicile structurii](#iii-implementarea---caracteristicile-structurii)  
+IV. [Grafice reprezentative](#iv-grafice-reprezentative)  
+V. [Concluzie](#v-concluzie)  
+VI. [Anexa întregului cod](#vi-anexa-întregului-cod)
+
+## I. Descrierea proiectului
+
+Proiectul constă în modelarea seriilor de timp utilizând funcții de bază Fourier. Problema dată înregistrează vânzările anumitor componente de instalații în funcție de nevoia folosirii lor de-a lungul unei serii de timp care se întinde pe parcursul mai multor ani și vor fi stocate în funcție de indecșii lunilor.
+
+## II. Descrierea structurii aproximatorului și a procedurii de găsire a parametrilor
+
+### II.I. Procedura de găsire a parametrilor
+...
