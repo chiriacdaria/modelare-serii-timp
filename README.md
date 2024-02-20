@@ -10,7 +10,6 @@ II. [Descrierea structurii aproximatorului și a procedurii de găsire a paramet
 III. [Implementarea - Caracteristicile structurii](#iii-implementarea---caracteristicile-structurii)  
 IV. [Grafice reprezentative](#iv-grafice-reprezentative)  
 V. [Concluzie](#v-concluzie)  
-VI. [Anexa întregului cod](#vi-anexa-întregului-cod)
 
 ## I. Descrierea proiectului
 
@@ -81,7 +80,7 @@ După determinarea regresiei liniare, am continuat cu funcționalitatea aproxima
 
 După obținerea matricei Φ, am calculat valorile pentru θ folosind formula θ = Φ \(y_id)', atât pentru validare cât și pentru identificare. După obținerea Φ și θ, am calculat aproximarea funcției y prin înmulțirea matricei cu vectorul de parametri. Am verificat corectitudinea soluțiilor pentru identificare și validare prin calcularea MSE.
 
-## IV Grafice reprezentative
+## IV. Grafice reprezentative
 
 ### IV.I Datele furnizate (datele inainte de a fi impartite)
 
@@ -99,7 +98,7 @@ După obținerea matricei Φ, am calculat valorile pentru θ folosind formula θ
 
 <img width="280" alt="Captură de ecran din 2024-02-20 la 14 19 36" src="https://github.com/chiriacdaria/modelare-serii-timp/assets/99746700/e852f93f-b4dd-4a0c-85f5-840888ce7d69">
 
-## V.Concluzie
+## V. Concluzie
 
 În concluzie, am abordat problema pe etape și am încercat să o structurăm cât de clar a fost posibil, astfel am ajuns la rezultatele dorite.
 De-a lungul problemei, am împărțit datele pentru validare cât și pentru identificare, apoi, am generat matricile pentru fiecare din situații, folosindu-ne de algoritmul regresiei liniare pentru a genera fiecare linie, iar mai apoi le-am adaugat în matrice. 
